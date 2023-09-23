@@ -1,0 +1,39 @@
+    {
+        1-Setting up DataBase Credits in env File
+        - Removing .env file From the GitIgnore If you Want
+    }
+
+    {
+        2- Installing the Auth Scaffolding :
+        $ composer require laravel/ui
+        // TODO require vs install ???
+        THEN Making the Auth :
+            $ php artisan ui:auth
+    }
+
+    {
+        3-Installing LiveWire
+            $ composer require livewire/livewire "^3.0@beta"
+            $ composer require livewire/livewire
+                [ It is Not Longer Beta Version ]
+    }
+
+    {
+        4- Installing Some Packages You Will Need :
+        - Pusher ? [ I will need it But Not Now ]
+        - I will Need A toastr Package For Notifications
+            [ composer require brian2694/laravel-toastr ]
+                { This is a Good One }
+            Toastr Need JS and CSS files :
+                {https://github.com/CodeSeven/toastr}
+    }
+
+    {
+        5-Migratig and Adding the Assets files Stuff :
+            - Jquery
+            - Vanilla Bootstrap
+                { Because i will Add Other Bootstrap themes Too }
+                https://bootswatch.com/ << For themes
+            - Any other Js and CSS files Needed  ;
+                - Like Fonts and Icons [ Maybe Later ]
+    }

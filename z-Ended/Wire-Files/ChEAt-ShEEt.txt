@@ -1,0 +1,105 @@
+$ php artisan make:livewire ComponentName
+
+wire:ignore.self
+wire:ignore??? >> What it Does ?
+{{-- wire:loading wire:target="updateProfileData" --}}
+wire:submit.prevent
+wire:submit.prevent='Function()'
+
+wire:model="propery"
+wire:model.live="propery"
+    [ Update propery Live Otherwise , Proprty not updated Unless you ask For it through a Function ]
+
+wire:model.blur="propery"
+
+ <span class="" wire:poll='avgsy'>
+    = avgsy -> FUNCTION
+
+wire:click="Function()"
+wire:click="Function({{ $param->id }})"
+
+=================================
+<livewire:Datarow :mandoob="$mandoob">
+@livewire('Datarow', ['mandoob' => $mandoob], key($mandoob->id))
+  {{-- Passing [ VIEW] + [PARAMS to CONTROLELR ] --}}
+=====================
+$rows = DB::connection('mysql')->select('SELECT * FROM TM.areahierarchy');
+Mandoob::truncate();
+================
+    {
+        $this->dispatch('mandoob-selected', id: $mandoobId);
+        use Livewire\Attributes\On;
+        #[On('mandoob-updated')]
+        public function updateRowCard($id)
+        {
+            $this->render();
+        }
+    }
+========================
+    {
+        <livewire:Datarow :mandoob="$mandoob">
+        public function mount($mandoob = null)
+        {
+            /**
+            * IMPORTANT to use the mount() method For that !!
+            */
+            $this->mandoob = $mandoob;
+        }
+    }
+========================
+========================
+<form action="" method="post" wire.submit.prevent="saveStudent">
+</form>
+=======================
+<input type="text" wire:model='course' class="form-control">
+==========================
+
+@livewire('Listform', ['list_id' => $viewedList->id])
+    $## This REquires mounting
+
+<form action="" method="post" wire.submit.prevent="saveStudent">
+</form>
+=======================
+<input type="text" wire:model='course' class="form-control">
+==========================
+1- Creating the LiveWire Components : [VWR]
+    $ php artisan make:livewire Componentvr
+    {
+        This Command will have Two parts :
+        [ Class -> Has Data and Logic ]
+        [ View -> A reactive html Component which you Can Embed in any Place  ]
+
+        This Means For Example you Can Make Comments Section a [ LiveWire Component ] And Rest of Page is Normal Blade But this Means when Embeding this LiveWire-Compoent inside this Balde it will be "Reactive Component"
+    }
+========================
+<form action="" method="post" wire.submit.prevent="saveStudent">
+</form>
+=======================
+<input type="text" wire:model='course' class="form-control">
+==========================
+
+@livewire('Listform', ['list_id' => $viewedList->id])
+    $## This REquires mounting
+
+==================
+LiveWire Class Has Properties -> Specific to Class
+
+Want to Make Everything Very Reactive ??
+    = Attach those Class Properties to the DB models
+    - So In a Nutshell : ALL you need ONLY is sending Ids to the Classes Of livewire
+    From There you Maniuplate the DB and "Wire" DB data with the Properties !!
+
+========================
+VERY IMPORTANT : when i tried to include the LinkEditingModal LiveWire Component
+inside another LiveWire Component There was An Error Happening TILL i
+put the Modal inside NORMAL blade File ;
+I am Still searching For reasong But Be Careful
+==========================
+ <div wire:loading wire:target="updateProfileData">Uploading...</div>
+    ## This is the Spinner Or Loader Waiting
+    ## wire:loading Means it is a Loader  ;
+    ## target indicates what it will be waiting for ?
+        ## Could be input filed "Normal Thing"
+        ## and It Could be Also a Method in the Class
+        ## Just like the Polling with Functions in Livewire  ;
+------------------------------

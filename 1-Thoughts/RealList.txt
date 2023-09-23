@@ -1,0 +1,23 @@
+1-Editing Modal for the list  ;
+    - Refresh page after it with Dispach
+2- The Desgin
+3- The Pagination for Links
+4- Searching Ajax !!
+#[Locked]
+https://livewire.laravel.com/docs/properties
+
+====================
+If i Click the Delete Button So Fast I will Get an Error Of Deleting NUll  ; 
+----------------------
+Link ThumbNail and Upload To Cloudinary  ? 
+-----------------
+Writing a Review Without Rating Will Be An Error  ; 
+    - Or Make a Defaut Rating For this Site Upon Reviewing ? 
+-------------------
+The links ? 
+    - Either Hashing thr ID ,, UUID Or SLUG ? 
+------------------
+The Advanced Search Page as the Last Step  ; 
+
+Routes Middleware ? 
+--------------------

@@ -1,0 +1,65 @@
+.line {
+    height: 1px;
+    background-color: #eeeeee;
+    width: 100%;
+    margin: 35px 0px;
+}
+
+.user-img {
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+    cursor: pointer;
+    margin: auto;
+}
+
+.fa-star.active {
+    color: #e91e63;
+}
+
+.btn-pink {
+    background-color: #e91e63;
+    color: #fff;
+    height: 70px;
+    padding: 20px 30px;
+    margin-top: 15px;
+}
+
+.btn-pink:hover {
+    background-color: #d81b60;
+}
+
+/* .image-bg {
+    width: 200px;
+} */
+
+.fit-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.prod-pic {
+    width: 80px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.prod-bg {
+    width: 25%;
+    /* height: 110px; */
+    /* background-color: #E0E0E0; */
+    margin-bottom: 3px;
+}
+
+.fat-img {
+    width: 94px;
+    height: 100px;
+}
+
+.more {
+    width: 19.5%;
+    height: 110px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}

@@ -1,0 +1,32 @@
+## Step 1 :  CREATION 
+{
+    ===============================
+    1- Creating livewire Component : 
+    $ php artisan make:livewire ComponentName 
+
+    This Command will Create Two parts :
+        [ Class -> Has Data and Logic ]
+        [ View -> A reactive html Component which you Can Embed in any Place ]
+        This Means For Example you Can Make Comments Section a [ LiveWire Component ]
+        And Rest of Page is Normal Blade But this Means when Embeding 
+        this LiveWire-Compoent inside this Balde it will be "Reactive Component"
+    ===============================
+}
+
+
+##Step 2 : HTML Component
+{
+    VIEW file :: Make the Html For the Component ,, 
+    Then Embed it inside the View 
+    instead of Using "@include()" 
+    You include it using this -> <livewire:COMPONENT_name>   
+}
+
+##Step 2.1 : Model Data [CLASS + VIEW]
+{
+    For ANY field on HTML tag , if you want to fill Or "Connect" Its VALUE to a Property in the 
+    Class Of the LiveWire Use { wire:model="PropertyName" }
+    Example ->  <input type="text" wire:model="firstModelItem">
+        => This is Like 'value="XYZ"' ; 
+}
+

@@ -1,0 +1,48 @@
+    {
+        1- Define all Entites Or things That will be Represented in the Project :
+        [ For This Project They are ]:
+            0- [ Category && Tag-Label]
+                - Because Some Entites below belong to Categories 
+            1- User
+            2- Lists
+                - Special Lists ( Like LinkTree Ones )
+                - Special Lists ( List of Lists )
+            3- Link "single Link"
+            4- Review
+    }
+
+    {
+        2- Make the [Migration/Model/Controller/{Factory if Needed}] For the Entites
+        - All Using One Command $php artisan make:model MODEL -mfc
+
+        ## NOTE : When Creating Entites Make Sure to make the General Entties First
+        And Then Make the Other Entites That Belong to Those Big Entites so that
+        No problems Happen ( Relational DB and one to Many and Stuff like that )
+
+        To Check If Problems Happen , you Can Do some seeding After Making The Structure Of
+        Data and Their Relationships
+    }
+
+    {
+        3- Start Defining Each Entity and What Data it needs .
+        And Put All Relations Between Entites
+
+        - Best Thing To do : For each Part , Review the Documentation
+        For Example For Migration Check Column Types available and
+        Check if you might Need Some Type Of them
+
+        - NOT NECESSARY to Put all things Now , You Can Always Update Fields
+        In the Future
+    }
+
+    {
+        -Migration
+        -Model
+        -Controller
+        -Factory
+    }
+
+
+After Setting Relationships >> Fill Fake Data
+THEN => Each Route = Logic + Screen
+    Do them One By Once [ Route = Gate ]

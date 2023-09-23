@@ -1,0 +1,16 @@
+3- Make the Views Folder For Each + Route File
+## NOTE : Route and Views are Related , SO Only Make Files and Folders For those
+Entites that need Them (In our Case No need For Review View Or Route For now )
+    - List as Example >> Folder Called list and Any Related Files Be inside it
+    "index,create,update"
+
+    - Route File >> Route(/lists)
+        - And All related links Under "/lists" In Once File
+        - in the Main Web.php File For Routes Include this Routing File
+        Examples For Including
+        {
+            #~ Route::group(['middleware' => ['auth']], __DIR__ . '/fileName.php');
+            #~ Route::group([], __DIR__ . '/fileName.php');
+        }
+
+

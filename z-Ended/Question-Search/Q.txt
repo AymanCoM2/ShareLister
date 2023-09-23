@@ -1,0 +1,6 @@
+Q1 - Why there is a Problem In "wire:model.live"
+    [ It is Related to the Bootsstrap Modals Or in General ?] "Explanation?"
+
+Answer : Yes it is the Wire:ignore.self 
+======================
+

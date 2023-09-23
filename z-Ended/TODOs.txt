@@ -1,0 +1,116 @@
+1-Remember : Many Fields in migration are nullable
+2- Once you Do this , Get to the User Model :
+    - Log in Google , Twitter ..etc ' Socialite'
+
+Recommended Sites On right side to the SITE
+    - Recommendation Engine ?
+    - AI to Detect the Validation Model For the Review  ;
+
+Form On the Right Side to edit the list title  ;
+============
+A user Can Make List For Links ,, But not to View the "Link Review page" Directly
+This Will happen with Dispaching And Jobs and Queues ,, Each time we analyze link
+Then we Decide if there is a Reivew Page Or Just "Love" Page
+Like a Google Drive link For example Or ftp one
+=============================
+Making Search in "my lists "
+=============================
+2-Advanced searching Form to search sites  ;
+3-APIs and AI for this ?
+## users own lists Not sites  ;
+## The List Description for the link
+## Limiting the Review Form
+## Recommendation(Other People Fill It ,, Community List ) List ???
+    - How to implement  ?
+=======================
+=======================
+How to Handle Those Links?
+    -File Dwonload
+    -Affiliate
+    -Spam
+    -Short Link
+    -Event Related
+    - "popular links in some Era Or Time "
+
+## Click tracking ?
+## Link Recommendations
+==========================
+6-Searching Page
+7-About / Contact / Terms Of service / ...etc
+//////////////////////////////
+Main Features :
+    - Site Up Or down ? [Green Lamp ?]
+    - Site info [ APIs ]
+    - Blocking Extension + REVIEWs "main feature"
+    - Lists To be shared [little links with descritions + Rating ]
+        - Typs Of Lists [ Normal , BlackList , Curated ]
+        - Other Types [ Private , Public ]
+        - Other Types [ Social Media ]
+///////////////////////
+Site Data :
+    - Tags  , Category , About section  , services Provided  ;
+////////////////////
+Recommendation System ?
+/////////////////////
+Product Hunt // Other Platforms ??
+Making a Profile For a Human To Marketize it ?
+The input form for the List items will be Below Like ChatGPT
+Making a Theme Through the Themes Links Files  ;
+    - Dark and Light ;
+===========================
+Product Hunt // Other Platforms ??
+The input form for the List items will be Below Like ChatGPT
+=======================
+Community-list Type
+https://www.w3schools.in/php/examples/check-domain-name-is-valid#google_vignette
+
+4-Advanced Search Page ???
+    // ! ALL of It ;
+----------------------------------
+Check the Console Of the App In Chrome After Finishing
+======================
+Editing List Data ALSO will be modal
+Button To "Toggle ALL discitption Or Close All "
+==============
+- 505 and 404 pages and All those stuff
+- Sending the mails and Middleware
+=====================
+## Should i Use Some Font for this Project ?
+Testing Project on Different Screens  ;
+    - What Kind of API Data that you will need to get ?
+        - ACTIVE or DOWN ?
+===================================================================
+1- Telegram Bot for it ?
+Slugs with lists ?
+2- Twitter Bot For it  ?
+
+3- - In home Page , Writing that the SEO can be sometime a Pain in the ass and
+Misused By sites that are NOT really helpful Or useful  ;
+
+4- Cloudinary & google && Socialite && Twitter ...etc
+Resolve ShortLinks into big Real Ones
+
+importing Tools Wizards  ;
+
+1- Socialite is installed But The We Will Do it All After the Project is Uploaded With
+Real Domain  .
+
+2- What Kind Of Middleware we need to put on the Routes ?
+-------------------
+
+2- http://127.0.0.1:8000/password/reset
+    - Edit the Design Of this Page  ;
+
+
+3-Data And Froms Validation and Correcting thr Logic in the Compoentns  ;
+Applying soft delete
+==============================
+Error 1 :
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'url' at row 1
+{This is When the link is SO very Long }
+## This is In Case the URL is So Long
+==============================
+Forking the list From aother List of another User  ;
+Storing Search history for users  ;
+------------------------------------
+3- Editing the Image Settings In Cloudinary "Dimension"
